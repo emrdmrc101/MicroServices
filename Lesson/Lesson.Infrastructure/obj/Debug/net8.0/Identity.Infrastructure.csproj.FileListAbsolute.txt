@@ -1,0 +1,17 @@
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Infrastructure.deps.json
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Infrastructure.dll
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Infrastructure.pdb
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Domain.dll
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Domain.pdb
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.csproj.AssemblyReference.cache
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.AssemblyInfoInputs.cache
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.AssemblyInfo.cs
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.dll
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/refint/Identity.Infrastructure.dll
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.pdb
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/ref/Identity.Infrastructure.dll
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Infrastructure.runtimeconfig.json
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.genruntimeconfig.cache
+/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.9C1318B7.Up2Date

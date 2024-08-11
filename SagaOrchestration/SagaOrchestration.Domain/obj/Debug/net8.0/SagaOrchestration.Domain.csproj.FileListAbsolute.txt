@@ -1,0 +1,15 @@
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/bin/Debug/net8.0/SagaOrchestration.Domain.deps.json
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/bin/Debug/net8.0/SagaOrchestration.Domain.dll
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/bin/Debug/net8.0/SagaOrchestration.Domain.pdb
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/bin/Debug/net8.0/Shared.dll
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/bin/Debug/net8.0/Shared.pdb
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/Debug/net8.0/SagaOrchestration.Domain.csproj.AssemblyReference.cache
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/Debug/net8.0/SagaOrchestration.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/Debug/net8.0/SagaOrchestration.Domain.AssemblyInfoInputs.cache
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/Debug/net8.0/SagaOrchestration.Domain.AssemblyInfo.cs
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/Debug/net8.0/SagaOrchestration.Domain.csproj.CoreCompileInputs.cache
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/Debug/net8.0/SagaOrchestration.Domain.dll
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/Debug/net8.0/refint/SagaOrchestration.Domain.dll
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/Debug/net8.0/SagaOrchestration.Domain.pdb
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/Debug/net8.0/ref/SagaOrchestration.Domain.dll
+/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/Debug/net8.0/SagaOrchestration.Domain.csproj.CopyComplete

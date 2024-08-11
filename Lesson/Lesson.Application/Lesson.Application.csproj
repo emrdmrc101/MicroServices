@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Mapster" Version="7.4.0" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.2" />
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.6.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Lesson.Domain\Lesson.Domain.csproj" />
+      <ProjectReference Include="..\Lesson.Infrastructure\Lesson.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Interfaces\Common\" />
+    </ItemGroup>
+
+</Project>

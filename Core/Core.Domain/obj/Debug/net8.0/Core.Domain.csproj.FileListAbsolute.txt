@@ -1,0 +1,11 @@
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/bin/Debug/net8.0/Core.Domain.deps.json
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/bin/Debug/net8.0/Core.Domain.dll
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/bin/Debug/net8.0/Core.Domain.pdb
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/obj/Debug/net8.0/Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/obj/Debug/net8.0/Core.Domain.AssemblyInfoInputs.cache
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/obj/Debug/net8.0/Core.Domain.AssemblyInfo.cs
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/obj/Debug/net8.0/Core.Domain.csproj.CoreCompileInputs.cache
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/obj/Debug/net8.0/Core.Domain.dll
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/obj/Debug/net8.0/refint/Core.Domain.dll
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/obj/Debug/net8.0/Core.Domain.pdb
+/Users/mymac/Desktop/EDemProject/Core/Core.Domain/obj/Debug/net8.0/ref/Core.Domain.dll

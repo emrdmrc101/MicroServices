@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="MassTransit" Version="8.2.3" />
+        <PackageReference Include="MassTransit.EntityFrameworkCore" Version="8.2.3" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SagaOrchestration.Domain\SagaOrchestration.Domain.csproj" />
+      <ProjectReference Include="..\SagaOrchestration.Infrastructure\SagaOrchestration.Infrastructure.csproj" />
+    </ItemGroup>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+</Project>

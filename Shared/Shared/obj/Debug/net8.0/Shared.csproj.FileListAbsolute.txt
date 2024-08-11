@@ -1,0 +1,11 @@
+/Users/mymac/Desktop/EDemProject/Shared/Shared/bin/Debug/net8.0/Shared.deps.json
+/Users/mymac/Desktop/EDemProject/Shared/Shared/bin/Debug/net8.0/Shared.dll
+/Users/mymac/Desktop/EDemProject/Shared/Shared/bin/Debug/net8.0/Shared.pdb
+/Users/mymac/Desktop/EDemProject/Shared/Shared/obj/Debug/net8.0/Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mymac/Desktop/EDemProject/Shared/Shared/obj/Debug/net8.0/Shared.AssemblyInfoInputs.cache
+/Users/mymac/Desktop/EDemProject/Shared/Shared/obj/Debug/net8.0/Shared.AssemblyInfo.cs
+/Users/mymac/Desktop/EDemProject/Shared/Shared/obj/Debug/net8.0/Shared.csproj.CoreCompileInputs.cache
+/Users/mymac/Desktop/EDemProject/Shared/Shared/obj/Debug/net8.0/Shared.dll
+/Users/mymac/Desktop/EDemProject/Shared/Shared/obj/Debug/net8.0/refint/Shared.dll
+/Users/mymac/Desktop/EDemProject/Shared/Shared/obj/Debug/net8.0/Shared.pdb
+/Users/mymac/Desktop/EDemProject/Shared/Shared/obj/Debug/net8.0/ref/Shared.dll

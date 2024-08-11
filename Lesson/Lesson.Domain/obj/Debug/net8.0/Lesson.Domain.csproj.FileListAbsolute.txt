@@ -1,0 +1,15 @@
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/bin/Debug/net8.0/Lesson.Domain.deps.json
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/bin/Debug/net8.0/Lesson.Domain.dll
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/bin/Debug/net8.0/Lesson.Domain.pdb
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/bin/Debug/net8.0/Shared.dll
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/bin/Debug/net8.0/Shared.pdb
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/obj/Debug/net8.0/Lesson.Domain.csproj.AssemblyReference.cache
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/obj/Debug/net8.0/Lesson.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/obj/Debug/net8.0/Lesson.Domain.AssemblyInfoInputs.cache
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/obj/Debug/net8.0/Lesson.Domain.AssemblyInfo.cs
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/obj/Debug/net8.0/Lesson.Domain.csproj.CoreCompileInputs.cache
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/obj/Debug/net8.0/Lesson.Domain.dll
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/obj/Debug/net8.0/refint/Lesson.Domain.dll
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/obj/Debug/net8.0/Lesson.Domain.pdb
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/obj/Debug/net8.0/ref/Lesson.Domain.dll
+/Users/mymac/Desktop/EDemProject/Lesson/Lesson.Domain/obj/Debug/net8.0/Lesson.Domain.csproj.CopyComplete

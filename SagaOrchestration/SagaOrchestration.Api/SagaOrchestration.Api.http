@@ -1,0 +1,6 @@
+@SagaOrchestration.Api_HostAddress = http://localhost:5208
+
+GET {{SagaOrchestration.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

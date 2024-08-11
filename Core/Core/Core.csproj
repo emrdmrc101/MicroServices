@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.6.2" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.2" />
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core.Domain\Core.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit.Abstractions" Version="8.2.3" />
+      <PackageReference Include="Serilog.AspNetCore" Version="8.0.2" />
+      <PackageReference Include="Serilog.Enrichers.Environment" Version="3.0.1" />
+      <PackageReference Include="Serilog.Formatting.Elasticsearch" Version="10.0.0" />
+      <PackageReference Include="Serilog.Sinks.Debug" Version="3.0.0" />
+      <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="10.0.0" />
+    </ItemGroup>
+
+</Project>
