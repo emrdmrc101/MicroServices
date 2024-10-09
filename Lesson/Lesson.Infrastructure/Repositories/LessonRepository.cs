@@ -1,7 +1,5 @@
-using Lesson.Domain.Entities;
 using Lesson.Domain.Interfaces.Repositories;
 using Lesson.Infrastructure.Data;
-using Lesson.Infrastructure.Helpers;
 using Microsoft.EntityFrameworkCore;
 
 namespace Lesson.Infrastructure.Repositories;

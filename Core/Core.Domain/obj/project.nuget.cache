@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hu03//WuFklSZpYI00wIh1nFgjZ8jfBEHd4nmbXkE0fuj4U69pS9AL2coKEV8YfedDTTc88if2p8w/SzciRlJw==",
+  "dgSpecHash": "SzboohEtSAZ7O+nHPNKej+dpiato4i3kX1sbalAcXcohCP8dzGjmnkQoIy1u4PizMZtApQJlFgkLLSgxxF9/OQ==",
   "success": true,
-  "projectFilePath": "/Users/mymac/Desktop/EDemProject/Core/Core.Domain/Core.Domain.csproj",
+  "projectFilePath": "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

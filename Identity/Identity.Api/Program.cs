@@ -1,41 +1,26 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Core.Middlewares;
+using Core.Modules;
+using Core.ServiceBus;
+using Core.Tracing;
 using Identity.Api.Modules;
 using Identity.Application.Modules;
 using Identity.Infrastructure.Data;
-using LoggerFactory = Core.Log.LoggerFactory;
+using Identity.Infrastructure.Modules;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-
-#region [MassTransit]
-
-builder.Services.AddMassTransit(x =>
-{
-    x.UsingRabbitMq((context, cfg) =>
-    {
-        cfg.Host("localhost", a =>
-        {
-            a.Username("guest");
-            a.Password("guest");
-        });
-        // cfg.MessageTopology.SetEntityNameFormatter(new CustomMessageNameFormatter());
-
-        cfg.ConfigureEndpoints(context);
-    });
-});
-
-#endregion
-
+builder.Services.AddOpenTelemetryAndJaeger(builder.Configuration);
+builder.Services.AddMassTransit();
+builder.Services.AddMassTransitHostedService();
 
 #region [Register Modules]
 
@@ -44,8 +29,9 @@ builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory()).Conf
     {
         b.RegisterModule<IdentityApiModules>();
         b.RegisterModule<ApplicationModule>();
+        b.RegisterModule<InfrastructureModule>();
         b.RegisterType<IdentityDbContext>().AsSelf();
-        b.Register<Core.Domain.Log.Interfaces.ILogger>(r => LoggerFactory.CreateLogger(builder.Configuration)).As<Core.Domain.Log.Interfaces.ILogger>().SingleInstance();
+        b.RegisterModule(new CoreModule(builder.Configuration));
     });
 
 #endregion
@@ -57,10 +43,8 @@ builder.Services.AddDbContext<IdentityDbContext>(o =>
 
 var app = builder.Build();
 
-var dbContext = app.Services.GetService<IdentityDbContext>();
-
-Console.WriteLine("Migrations...");
-if (dbContext != null) await dbContext.Database.MigrateAsync();
+app.AddExceptionHandlingMiddleware();
+app.AddTraceMiddleware();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -70,9 +54,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
+
+var dbContext = app.Services.GetService<IdentityDbContext>();
+Console.WriteLine("Migrations...");
+if (dbContext != null) await dbContext.Database.MigrateAsync();
 
 app.Run();

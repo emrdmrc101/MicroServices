@@ -1,12 +1,13 @@
+using Core.Tracing;
 using Lesson.Application.Interfaces.Services;
-using Lesson.Api.Models.Authentication.Request;
-using Lesson.Api.Models.Authentication.Response;
-using Lesson.Application.Services.Models.DTOs.Input;
-using Lesson.Application.Services.Models.DTOs.Objects;
+using Lesson.Application.Queries.GetLessons;
+using Lesson.Application.Queries.GetLessons.Response;
+using Lesson.Application.Queries.GetMyLessons;
+using Lesson.Application.Queries.GetMyLessons.Responses;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Shared.Interfaces;
-using LessonObject = Lesson.Api.Models.Lesson.Objects.LessonObject;
 
 namespace Lesson.Api.Controllers;
 
@@ -16,32 +17,22 @@ namespace Lesson.Api.Controllers;
 public class LessonController(
     ILessonService lessonService,
     IUserClaimsService contextService,
-    IMapperService mapperService
-    ) : BaseController
+    IMapperService mapperService,
+    IMediator mediator,
+    ActivityTracing activityTracing
+) : BaseController
 {
     [HttpPost("GetLessons")]
-    public async Task<GetLessonResponse> GetLessons(GetLessonRequest request)
+    public async Task<GetLessonsQueryResponse> GetLessons()
     {
-        var lessonsServiceResult = await lessonService.GetLessons(new GetLessonsInputDto());
-
-        var lessons = mapperService.Map<List<LessonDto>, List<LessonObject>>(lessonsServiceResult.Lessons);
-
-        return new GetLessonResponse
-        {
-            Lessons = lessons
-        };
+        return await mediator.Send(new GetLessonsQuery());
     }
 
     [HttpGet("GetMyLessons")]
-    public async Task<GetMyLessonsResponse> GetMyLessons()
+    public async Task<GetMyLessonsQueryResponse> GetMyLessons()
     {
-        var lessonsServiceResult = await lessonService.GetMyLessons(userId: contextService.UserContext.UserId);
-        
-        var lessons = mapperService.Map<List<LessonDto>, List<LessonObject>>(lessonsServiceResult.Lessons);
-
-        return new GetMyLessonsResponse
-        {
-            Lessons = lessons
-        };
+        return await activityTracing.ExecuteWithTracingAsync<GetMyLessonsQueryResponse>(nameof(GetMyLessons),
+            async () =>
+                await mediator.Send(new GetMyLessonsQuery()));
     }
 }

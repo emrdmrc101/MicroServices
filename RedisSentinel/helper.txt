@@ -1,0 +1,1 @@
+docker network create edem_redis_sentinel_network

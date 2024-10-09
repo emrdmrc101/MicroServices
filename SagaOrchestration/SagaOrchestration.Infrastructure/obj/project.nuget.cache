@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "htwi+efXxpC5O9pY+SXtBqpkDg8f99qqtji67nc3uSpk9PG2ZAuNCKvNOTKs76X5Tf8CriW0anxUoFnCf/R8+w==",
+  "dgSpecHash": "QXvh90ZR6P156uk3o02Xvxq1YS9iSBkii+1FjjX2j7JboDB7Bx8cb3WeaUltBCBU2K/9hm7gJV4n7ZaV3iclgA==",
   "success": true,
-  "projectFilePath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj",
+  "projectFilePath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/mymac/.nuget/packages/aspire.npgsql.entityframeworkcore.postgresql/8.0.1/aspire.npgsql.entityframeworkcore.postgresql.8.0.1.nupkg.sha512",
     "/Users/mymac/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

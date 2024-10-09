@@ -5,6 +5,7 @@ using Identity.Application.Interfaces.Services;
 using Identity.Application.Services;
 using Identity.Domain.Interfaces.Common;
 using Identity.Infrastructure.DependencyInjection;
+using Shared.Interfaces;
 
 namespace Identity.Api.Modules;
 

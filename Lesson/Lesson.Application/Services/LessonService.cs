@@ -8,7 +8,6 @@ using Lesson.Application.Services.Models.DTOs.Objects;
 using Lesson.Application.Services.Models.DTOs.Result;
 using Lesson.Application.Services.Models.Objects;
 using Lesson.Domain.Interfaces.Repositories;
-using Lesson.Infrastructure.Helpers;
 using MassTransit;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;

@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002FUsers_002Fmymac_002FDesktop_002FEDemProject_002FIdentity_002FIdentity_002EDomain_002Fbin_002FDebug_002Fnet8_002E0_002FIdentity_002EDomain_002Edll/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002FUsers_002Fmymac_002FDesktop_002FEDemProject_002FSaga_002FSaga_002Fbin_002FDebug_002Fnet8_002E0_002FSaga_002Edll/@EntryIndexedValue">True</s:Boolean>
+	
+	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=02e4a553_002Da582_002D4165_002D892c_002D759475503103/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String>

@@ -10,8 +10,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<SagaOrchestrationDbContext>();
-
-
 builder.Services.AddMassTransit(cfg =>
 {
     cfg.AddSagaStateMachine<UserRegistrationStateMachine, SagaOrchestration.Domain.State.UserRegistrationSagaState>()
@@ -23,7 +21,6 @@ builder.Services.AddMassTransit(cfg =>
                 builderOptions.UseNpgsql(builder.Configuration.GetValue<string>("Database:connectionString"),
                     m =>
                     {
-                        // m.MigrationsAssembly(Assembly.GetExecutingAssembly().GetName().Name);
                         m.MigrationsHistoryTable($"__{nameof(SagaOrchestrationDbContext)}");
                     });
             });
@@ -42,17 +39,6 @@ builder.Services.AddMassTransit(cfg =>
         cfg.ConfigureEndpoints(context);
     });
 });
-
-// builder.Services.AddDbContext<SagaOrchestrationDbContext>(o =>
-// {
-//     o.UseNpgsql(builder.Configuration.GetValue<string>("Database:connectionString"), m =>
-//     {
-//        // m.MigrationsAssembly(Assembly.GetExecutingAssembly().GetName().Name);
-//         m.MigrationsHistoryTable($"__{nameof(SagaOrchestrationDbContext)}");
-//     });
-//   
-// });
-
 
 var app = builder.Build();
 

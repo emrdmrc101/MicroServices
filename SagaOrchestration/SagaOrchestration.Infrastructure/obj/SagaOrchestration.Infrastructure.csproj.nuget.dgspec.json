@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj": {}
+    "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj": {
+    "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj",
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj",
         "projectName": "SagaOrchestration.Domain",
-        "projectPath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj",
+        "projectPath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj",
         "packagesPath": "/Users/mymac/.nuget/packages/",
-        "outputPath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/obj/",
+        "outputPath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mymac/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mymac/Desktop/EDemProject/Shared/Shared/Shared.csproj": {
-                "projectPath": "/Users/mymac/Desktop/EDemProject/Shared/Shared/Shared.csproj"
+              "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj": {
+    "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj",
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj",
         "projectName": "SagaOrchestration.Infrastructure",
-        "projectPath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj",
+        "projectPath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj",
         "packagesPath": "/Users/mymac/.nuget/packages/",
-        "outputPath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Infrastructure/obj/",
+        "outputPath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mymac/.nuget/NuGet/NuGet.Config"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj": {
-                "projectPath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj"
+              "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj"
               }
             }
           }
@@ -160,14 +160,14 @@
         }
       }
     },
-    "/Users/mymac/Desktop/EDemProject/Shared/Shared/Shared.csproj": {
+    "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mymac/Desktop/EDemProject/Shared/Shared/Shared.csproj",
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "/Users/mymac/Desktop/EDemProject/Shared/Shared/Shared.csproj",
+        "projectPath": "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj",
         "packagesPath": "/Users/mymac/.nuget/packages/",
-        "outputPath": "/Users/mymac/Desktop/EDemProject/Shared/Shared/obj/",
+        "outputPath": "/Users/mymac/Desktop/MServices/Shared/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mymac/.nuget/NuGet/NuGet.Config"

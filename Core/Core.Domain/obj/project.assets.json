@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mymac/Desktop/EDemProject/Core/Core.Domain/Core.Domain.csproj",
+      "projectUniqueName": "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj",
       "projectName": "Core.Domain",
-      "projectPath": "/Users/mymac/Desktop/EDemProject/Core/Core.Domain/Core.Domain.csproj",
+      "projectPath": "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj",
       "packagesPath": "/Users/mymac/.nuget/packages/",
-      "outputPath": "/Users/mymac/Desktop/EDemProject/Core/Core.Domain/obj/",
+      "outputPath": "/Users/mymac/Desktop/MServices/Core/Core.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mymac/.nuget/NuGet/NuGet.Config"

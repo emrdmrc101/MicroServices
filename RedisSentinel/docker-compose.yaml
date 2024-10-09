@@ -1,0 +1,79 @@
+version: '3.9'
+
+services:
+  redis-master:
+    image: redis:latest
+    container_name: redis-master
+    ports:
+      - "6379:6379"
+    command: redis-server --port 6379 --appendonly yes
+    network_mode: "host"
+
+  redis-slave-1:
+    image: redis:latest
+    container_name: redis-slave-1
+    depends_on:
+      - redis-master
+    ports:
+      - "6370:6370"
+    command: redis-server --port 6370 --appendonly yes --slaveof 127.0.0.1 6379
+    network_mode: "host"
+
+  redis-slave-2:
+    image: redis:latest
+    container_name: redis-slave-2
+    depends_on:
+      - redis-master
+    ports:
+      - "6375:6375"
+    command: redis-server --port 6375 --appendonly yes --slaveof 127.0.0.1 6379
+    network_mode: "host"
+
+  sentinel-1:
+    image: redis:latest
+    container_name: sentinel-1
+    depends_on:
+      - redis-master
+      - redis-slave-1
+      - redis-slave-2
+    ports:
+      - "6570:26379"
+    command:
+      sh -c 'redis-sentinel /usr/local/etc/sentinel.conf'
+    volumes:
+      - /Users/mymac/Desktop/MServices/Redis/sentinel.conf:/usr/local/etc/sentinel.conf
+    network_mode: "host"
+
+  sentinel-2:
+    image: redis:latest
+    container_name: sentinel-2
+    depends_on:
+      - redis-master
+      - redis-slave-1
+      - redis-slave-2
+    ports:
+      - "6571:26379"
+    command: >
+      sh -c 'redis-sentinel /usr/local/etc/sentinel.conf'
+    volumes:
+      - /Users/mymac/Desktop/MServices/Redis/sentinel2.conf:/usr/local/etc/sentinel.conf
+    network_mode: "host"
+
+  sentinel-3:
+    image: redis:latest
+    container_name: sentinel-3
+    depends_on:
+      - redis-master
+      - redis-slave-1
+      - redis-slave-2
+    ports:
+      - "6572:26379"
+    command: >
+      sh -c 'redis-sentinel /usr/local/etc/sentinel.conf'
+    volumes:
+      - /Users/mymac/Desktop/MServices/Redis/sentinel3.conf:/usr/local/etc/sentinel.conf
+    network_mode: "host"
+
+networks:
+  redis-network:
+    driver: bridge

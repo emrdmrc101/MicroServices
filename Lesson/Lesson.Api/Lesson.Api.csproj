@@ -17,6 +17,7 @@
     <ItemGroup>
         <ProjectReference Include="..\Lesson.Application\Lesson.Application.csproj"/>
         <ProjectReference Include="..\Lesson.Infrastructure\Lesson.Infrastructure.csproj"/>
+        <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.3"/>
     </ItemGroup>
 
     <ItemGroup>

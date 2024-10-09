@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kckp447xz5FkSTYTnLEh4rD78Hx2PJowdPIWKqtBjbRlFR69MXb7cxEv+wmz9OddHW4CvpgPl6EQueDUvPwPOw==",
+  "dgSpecHash": "49sGnroQk9a9bkumzcBOQKQvt6yQIZ0mfWGKzwXBHu5MZopRpQKMEThGz14jgIa8Taj/4Ha2UTrxtfSG9wqN5w==",
   "success": true,
-  "projectFilePath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj",
+  "projectFilePath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/mymac/.nuget/packages/masstransit/8.2.3/masstransit.8.2.3.nupkg.sha512",
     "/Users/mymac/.nuget/packages/masstransit.abstractions/8.2.3/masstransit.abstractions.8.2.3.nupkg.sha512",

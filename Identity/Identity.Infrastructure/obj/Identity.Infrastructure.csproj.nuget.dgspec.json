@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/Identity.Infrastructure.csproj": {}
+    "/Users/mymac/Desktop/MServices/Identity/Identity.Infrastructure/Identity.Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/mymac/Desktop/EDemProject/Core/Core.Domain/Core.Domain.csproj": {
+    "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mymac/Desktop/EDemProject/Core/Core.Domain/Core.Domain.csproj",
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj",
         "projectName": "Core.Domain",
-        "projectPath": "/Users/mymac/Desktop/EDemProject/Core/Core.Domain/Core.Domain.csproj",
+        "projectPath": "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj",
         "packagesPath": "/Users/mymac/.nuget/packages/",
-        "outputPath": "/Users/mymac/Desktop/EDemProject/Core/Core.Domain/obj/",
+        "outputPath": "/Users/mymac/Desktop/MServices/Core/Core.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mymac/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/Users/mymac/Desktop/EDemProject/Core/Core/Core.csproj": {
+    "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mymac/Desktop/EDemProject/Core/Core/Core.csproj",
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/mymac/Desktop/EDemProject/Core/Core/Core.csproj",
+        "projectPath": "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj",
         "packagesPath": "/Users/mymac/.nuget/packages/",
-        "outputPath": "/Users/mymac/Desktop/EDemProject/Core/Core/obj/",
+        "outputPath": "/Users/mymac/Desktop/MServices/Core/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mymac/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mymac/Desktop/EDemProject/Core/Core.Domain/Core.Domain.csproj": {
-                "projectPath": "/Users/mymac/Desktop/EDemProject/Core/Core.Domain/Core.Domain.csproj"
+              "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj"
+              },
+              "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj"
               }
             }
           }
@@ -103,17 +106,85 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Elasticsearch.Net": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
             "MassTransit.Abstractions": {
               "target": "Package",
               "version": "[8.2.3, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[7.6.2, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql.OpenTelemetry": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Api": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Exporter.Jaeger": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Instrumentation.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0-beta.12, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.9.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -134,6 +205,10 @@
             "Serilog.Sinks.Elasticsearch": {
               "target": "Package",
               "version": "[10.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -160,14 +235,14 @@
         }
       }
     },
-    "/Users/mymac/Desktop/EDemProject/Identity/Identity.Domain/Identity.Domain.csproj": {
+    "/Users/mymac/Desktop/MServices/Identity/Identity.Application/Identity.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mymac/Desktop/EDemProject/Identity/Identity.Domain/Identity.Domain.csproj",
-        "projectName": "Identity.Domain",
-        "projectPath": "/Users/mymac/Desktop/EDemProject/Identity/Identity.Domain/Identity.Domain.csproj",
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/Identity/Identity.Application/Identity.Application.csproj",
+        "projectName": "Identity.Application",
+        "projectPath": "/Users/mymac/Desktop/MServices/Identity/Identity.Application/Identity.Application.csproj",
         "packagesPath": "/Users/mymac/.nuget/packages/",
-        "outputPath": "/Users/mymac/Desktop/EDemProject/Identity/Identity.Domain/obj/",
+        "outputPath": "/Users/mymac/Desktop/MServices/Identity/Identity.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mymac/.nuget/NuGet/NuGet.Config"
@@ -182,8 +257,82 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mymac/Desktop/EDemProject/Shared/Shared/Shared.csproj": {
-                "projectPath": "/Users/mymac/Desktop/EDemProject/Shared/Shared/Shared.csproj"
+              "/Users/mymac/Desktop/MServices/Identity/Identity.Domain/Identity.Domain.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Identity/Identity.Domain/Identity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/mymac/.vscode-dotnet-sdk/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mymac/Desktop/MServices/Identity/Identity.Domain/Identity.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/Identity/Identity.Domain/Identity.Domain.csproj",
+        "projectName": "Identity.Domain",
+        "projectPath": "/Users/mymac/Desktop/MServices/Identity/Identity.Domain/Identity.Domain.csproj",
+        "packagesPath": "/Users/mymac/.nuget/packages/",
+        "outputPath": "/Users/mymac/Desktop/MServices/Identity/Identity.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mymac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj"
+              },
+              "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj"
               }
             }
           }
@@ -239,14 +388,14 @@
         }
       }
     },
-    "/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/Identity.Infrastructure.csproj": {
+    "/Users/mymac/Desktop/MServices/Identity/Identity.Infrastructure/Identity.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/Identity.Infrastructure.csproj",
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/Identity/Identity.Infrastructure/Identity.Infrastructure.csproj",
         "projectName": "Identity.Infrastructure",
-        "projectPath": "/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/Identity.Infrastructure.csproj",
+        "projectPath": "/Users/mymac/Desktop/MServices/Identity/Identity.Infrastructure/Identity.Infrastructure.csproj",
         "packagesPath": "/Users/mymac/.nuget/packages/",
-        "outputPath": "/Users/mymac/Desktop/EDemProject/Identity/Identity.Infrastructure/obj/",
+        "outputPath": "/Users/mymac/Desktop/MServices/Identity/Identity.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mymac/.nuget/NuGet/NuGet.Config"
@@ -261,11 +410,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mymac/Desktop/EDemProject/Core/Core/Core.csproj": {
-                "projectPath": "/Users/mymac/Desktop/EDemProject/Core/Core/Core.csproj"
+              "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj"
               },
-              "/Users/mymac/Desktop/EDemProject/Identity/Identity.Domain/Identity.Domain.csproj": {
-                "projectPath": "/Users/mymac/Desktop/EDemProject/Identity/Identity.Domain/Identity.Domain.csproj"
+              "/Users/mymac/Desktop/MServices/Identity/Identity.Application/Identity.Application.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Identity/Identity.Application/Identity.Application.csproj"
+              },
+              "/Users/mymac/Desktop/MServices/Identity/Identity.Domain/Identity.Domain.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Identity/Identity.Domain/Identity.Domain.csproj"
               }
             }
           }
@@ -323,14 +475,14 @@
         }
       }
     },
-    "/Users/mymac/Desktop/EDemProject/Shared/Shared/Shared.csproj": {
+    "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mymac/Desktop/EDemProject/Shared/Shared/Shared.csproj",
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "/Users/mymac/Desktop/EDemProject/Shared/Shared/Shared.csproj",
+        "projectPath": "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj",
         "packagesPath": "/Users/mymac/.nuget/packages/",
-        "outputPath": "/Users/mymac/Desktop/EDemProject/Shared/Shared/obj/",
+        "outputPath": "/Users/mymac/Desktop/MServices/Shared/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mymac/.nuget/NuGet/NuGet.Config"

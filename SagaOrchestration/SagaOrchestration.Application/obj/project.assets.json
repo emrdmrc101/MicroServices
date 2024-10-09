@@ -1829,11 +1829,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Application/SagaOrchestration.Application.csproj",
+      "projectUniqueName": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Application/SagaOrchestration.Application.csproj",
       "projectName": "SagaOrchestration.Application",
-      "projectPath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Application/SagaOrchestration.Application.csproj",
+      "projectPath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Application/SagaOrchestration.Application.csproj",
       "packagesPath": "/Users/mymac/.nuget/packages/",
-      "outputPath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Application/obj/",
+      "outputPath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mymac/.nuget/NuGet/NuGet.Config"
@@ -1848,11 +1848,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj": {
-              "projectPath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj"
+            "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj": {
+              "projectPath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Domain/SagaOrchestration.Domain.csproj"
             },
-            "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj": {
-              "projectPath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj"
+            "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj": {
+              "projectPath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Infrastructure/SagaOrchestration.Infrastructure.csproj"
             }
           }
         }

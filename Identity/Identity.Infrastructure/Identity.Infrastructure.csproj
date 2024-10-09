@@ -21,10 +21,12 @@
     <ItemGroup>
       <Folder Include="Consumers\" />
       <Folder Include="Data\Migrations\" />
+      <Folder Include="MassTransit\" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\..\Core\Core\Core.csproj" />
+      <ProjectReference Include="..\Identity.Application\Identity.Application.csproj" />
       <ProjectReference Include="..\Identity.Domain\Identity.Domain.csproj" />
     </ItemGroup>
 

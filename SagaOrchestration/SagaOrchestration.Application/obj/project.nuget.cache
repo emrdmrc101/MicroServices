@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6CoABoijnIpK/i3Bdo+UMQSltzc+8spVDOyaIA9XiZ8OTXmz+RViA57TQcQT0B1vY48wkS91DgTA7XyDhYGGfQ==",
+  "dgSpecHash": "aNV8ve3tOavvw+Qo/TyOtLcxK0nSSecVik6XOvFnSmeNqkthHt1Rf5avu1WfBck49yNnkSvss+MKBBN+aGMppA==",
   "success": true,
-  "projectFilePath": "/Users/mymac/Desktop/EDemProject/SagaOrchestration/SagaOrchestration.Application/SagaOrchestration.Application.csproj",
+  "projectFilePath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Application/SagaOrchestration.Application.csproj",
   "expectedPackageFiles": [
     "/Users/mymac/.nuget/packages/aspire.npgsql.entityframeworkcore.postgresql/8.0.1/aspire.npgsql.entityframeworkcore.postgresql.8.0.1.nupkg.sha512",
     "/Users/mymac/.nuget/packages/masstransit/8.2.3/masstransit.8.2.3.nupkg.sha512",
