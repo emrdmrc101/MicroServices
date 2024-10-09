@@ -46,4 +46,4 @@
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Infrastructure/obj/Debug/net8.0/ref/Lesson.Infrastructure.dll
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Infrastructure/bin/Debug/net8.0/Lesson.Application.dll
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Infrastructure/bin/Debug/net8.0/Lesson.Application.pdb
-/Users/mymac/Desktop/MServices/Lesson/Lesson.Infrastructure/obj/Debug/net8.0/Lesson.Infrastructure.csproj.CopyComplete
+/Users/mymac/Desktop/MServices/Lesson/Lesson.Infrastructure/obj/Debug/net8.0/Lesson.I.121C30F5.Up2Date

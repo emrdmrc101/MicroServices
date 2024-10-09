@@ -339,4 +339,4 @@
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Api/bin/Debug/net8.0/OpenTelemetry.Exporter.Jaeger.dll
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Api/bin/Debug/net8.0/Nest.dll
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Api/bin/Debug/net8.0/OpenTelemetry.Instrumentation.EntityFrameworkCore.dll
-/Users/mymac/Desktop/MServices/Lesson/Lesson.Api/obj/Debug/net8.0/Lesson.Api.csproj.CopyComplete
+/Users/mymac/Desktop/MServices/Lesson/Lesson.Api/obj/Debug/net8.0/Lesson.Api.csproj.Up2Date

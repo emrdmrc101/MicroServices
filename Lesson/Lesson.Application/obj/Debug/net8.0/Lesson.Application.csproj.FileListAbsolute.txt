@@ -42,4 +42,4 @@
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Application/obj/Debug/net8.0/refint/Lesson.Application.dll
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Application/obj/Debug/net8.0/Lesson.Application.pdb
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Application/obj/Debug/net8.0/ref/Lesson.Application.dll
-/Users/mymac/Desktop/MServices/Lesson/Lesson.Application/obj/Debug/net8.0/Lesson.Application.csproj.CopyComplete
+/Users/mymac/Desktop/MServices/Lesson/Lesson.Application/obj/Debug/net8.0/Lesson.A.209EF699.Up2Date

@@ -32,4 +32,4 @@
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Domain/bin/Debug/net8.0/Core.Domain.dll
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Domain/bin/Debug/net8.0/Core.pdb
 /Users/mymac/Desktop/MServices/Lesson/Lesson.Domain/bin/Debug/net8.0/Core.Domain.pdb
-/Users/mymac/Desktop/MServices/Lesson/Lesson.Domain/obj/Debug/net8.0/Lesson.Domain.csproj.CopyComplete
+/Users/mymac/Desktop/MServices/Lesson/Lesson.Domain/obj/Debug/net8.0/Lesson.D.C342A619.Up2Date
