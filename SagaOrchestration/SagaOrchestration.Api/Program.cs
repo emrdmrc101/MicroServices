@@ -1,3 +1,7 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using Core.Modules;
+using Core.ServiceDiscovery;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using SagaOrchestration.Application.StateMachines.UserRegistration;
@@ -8,6 +12,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+#region [Register Modules]
+
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory()).ConfigureContainer<ContainerBuilder>(
+    b =>
+    {
+        b.RegisterModule(new CoreModule(builder.Configuration));
+    });
+
+#endregion
 
 builder.Services.AddTransient<SagaOrchestrationDbContext>();
 builder.Services.AddMassTransit(cfg =>
@@ -41,7 +55,7 @@ builder.Services.AddMassTransit(cfg =>
 });
 
 var app = builder.Build();
-
+app.RunZookeeper();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

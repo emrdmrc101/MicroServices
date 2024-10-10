@@ -3,6 +3,7 @@ using Autofac.Extensions.DependencyInjection;
 using Core.Identity;
 using Core.Middlewares;
 using Core.Modules;
+using Core.ServiceDiscovery;
 using Core.Tracing;
 using Gateway.Modules;
 using Ocelot.DependencyInjection;
@@ -34,7 +35,7 @@ builder.Services.AddJwt(builder.Configuration);
 builder.Services.AddOpenTelemetryAndJaeger(builder.Configuration);
 
 var app = builder.Build();
-
+app.RunZookeeper();
 app.AddExceptionHandlingMiddleware();
 app.AddTraceMiddleware();
 

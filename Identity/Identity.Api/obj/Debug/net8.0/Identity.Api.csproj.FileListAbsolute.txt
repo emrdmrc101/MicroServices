@@ -339,4 +339,5 @@
 /Users/mymac/Desktop/MServices/Identity/Identity.Api/bin/Debug/net8.0/OpenTelemetry.Instrumentation.Http.dll
 /Users/mymac/Desktop/MServices/Identity/Identity.Api/bin/Debug/net8.0/Nest.dll
 /Users/mymac/Desktop/MServices/Identity/Identity.Api/bin/Debug/net8.0/OpenTelemetry.Instrumentation.EntityFrameworkCore.dll
+/Users/mymac/Desktop/MServices/Identity/Identity.Api/bin/Debug/net8.0/ZooKeeperNetEx.dll
 /Users/mymac/Desktop/MServices/Identity/Identity.Api/obj/Debug/net8.0/Identity.Api.csproj.CopyComplete

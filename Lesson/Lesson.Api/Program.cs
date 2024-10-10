@@ -3,7 +3,7 @@ using Autofac.Extensions.DependencyInjection;
 using Core.Identity;
 using Core.Middlewares;
 using Core.Modules;
-using Core.ServiceBus;
+using Core.ServiceBus;using Core.ServiceDiscovery;
 using Core.Tracing;
 using Lesson.Api.Modules;
 using Lesson.Application.Modules;
@@ -26,6 +26,8 @@ builder.Services.AddOpenTelemetryAndJaeger(builder.Configuration);
 builder.Services.AddHttpClient();
 // Set Identity Configurations
 builder.Services.AddJwt(builder.Configuration);
+
+
 
 #region [Register Modules]
 
@@ -51,8 +53,11 @@ builder.Services.AddDbContext<LessonDbContext>(o =>
 
 #endregion
 
+
+
 var app = builder.Build();
 
+app.RunZookeeper();
 app.AddExceptionHandlingMiddleware();
 app.AddUserClaimsMiddleware();
 app.AddTraceMiddleware();

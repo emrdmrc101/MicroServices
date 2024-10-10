@@ -213,6 +213,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[7.6.2, )"
+            },
+            "ZooKeeperNetEx": {
+              "target": "Package",
+              "version": "[3.4.12.4, )"
             }
           },
           "imports": [

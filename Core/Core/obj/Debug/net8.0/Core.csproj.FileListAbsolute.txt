@@ -30,4 +30,4 @@
 /Users/mymac/Desktop/MServices/Core/Core/obj/Debug/net8.0/ref/Core.dll
 /Users/mymac/Desktop/MServices/Core/Core/bin/Debug/net8.0/Shared.dll
 /Users/mymac/Desktop/MServices/Core/Core/bin/Debug/net8.0/Shared.pdb
-/Users/mymac/Desktop/MServices/Core/Core/obj/Debug/net8.0/Core.csproj.Up2Date
+/Users/mymac/Desktop/MServices/Core/Core/obj/Debug/net8.0/Core.csproj.CopyComplete

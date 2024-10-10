@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CBq6acjeDVuS3+XG5w7c/7mIkbqQfGL4HfGupD3YmgaQNR+6a9kvSdjBbY8hJaVjzxp2QWLVByW9f/AxwB+TNg==",
+  "dgSpecHash": "uKU2Yv0nLq9YZ3mETy2Aqt9pbtxN//x3ZIn26frUqZh45C/JF5yI0BnF0fDBh2iWFfPPNS+M5ROfilJ7Y6Vmmw==",
   "success": true,
   "projectFilePath": "/Users/mymac/Desktop/MServices/Lesson/Lesson.Api/Lesson.Api.csproj",
   "expectedPackageFiles": [
@@ -119,7 +119,8 @@
     "/Users/mymac/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/Users/mymac/.nuget/packages/system.text.json/8.0.4/system.text.json.8.0.4.nupkg.sha512",
     "/Users/mymac/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512",
-    "/Users/mymac/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "/Users/mymac/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/Users/mymac/.nuget/packages/zookeepernetex/3.4.12.4/zookeepernetex.3.4.12.4.nupkg.sha512"
   ],
   "logs": []
 }

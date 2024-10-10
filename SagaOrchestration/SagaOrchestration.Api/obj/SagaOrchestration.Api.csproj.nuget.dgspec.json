@@ -4,6 +4,241 @@
     "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Api/SagaOrchestration.Api.csproj": {}
   },
   "projects": {
+    "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj",
+        "projectName": "Core.Domain",
+        "projectPath": "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj",
+        "packagesPath": "/Users/mymac/.nuget/packages/",
+        "outputPath": "/Users/mymac/Desktop/MServices/Core/Core.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mymac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/mymac/.vscode-dotnet-sdk/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj",
+        "packagesPath": "/Users/mymac/.nuget/packages/",
+        "outputPath": "/Users/mymac/Desktop/MServices/Core/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mymac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Core/Core.Domain/Core.Domain.csproj"
+              },
+              "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Shared/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Elasticsearch.Net": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
+            "MassTransit.Abstractions": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.6.2, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql.OpenTelemetry": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Api": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Exporter.Jaeger": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Instrumentation.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0-beta.12, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Formatting.Elasticsearch": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.2, )"
+            },
+            "ZooKeeperNetEx": {
+              "target": "Package",
+              "version": "[3.4.12.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/mymac/.vscode-dotnet-sdk/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Api/SagaOrchestration.Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,6 +261,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj": {
+                "projectPath": "/Users/mymac/Desktop/MServices/Core/Core/Core.csproj"
+              },
               "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Application/SagaOrchestration.Application.csproj": {
                 "projectPath": "/Users/mymac/Desktop/MServices/SagaOrchestration/SagaOrchestration.Application/SagaOrchestration.Application.csproj"
               }

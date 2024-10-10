@@ -41,7 +41,7 @@ services:
     command:
       sh -c 'redis-sentinel /usr/local/etc/sentinel.conf'
     volumes:
-      - /Users/mymac/Desktop/MServices/Redis/sentinel.conf:/usr/local/etc/sentinel.conf
+      - /Users/mymac/Desktop/MServices/RedisSentinel/sentinel.conf:/usr/local/etc/sentinel.conf
     network_mode: "host"
 
   sentinel-2:
@@ -56,7 +56,7 @@ services:
     command: >
       sh -c 'redis-sentinel /usr/local/etc/sentinel.conf'
     volumes:
-      - /Users/mymac/Desktop/MServices/Redis/sentinel2.conf:/usr/local/etc/sentinel.conf
+      - /Users/mymac/Desktop/MServices/RedisSentinel/sentinel2.conf:/usr/local/etc/sentinel.conf
     network_mode: "host"
 
   sentinel-3:
@@ -71,7 +71,7 @@ services:
     command: >
       sh -c 'redis-sentinel /usr/local/etc/sentinel.conf'
     volumes:
-      - /Users/mymac/Desktop/MServices/Redis/sentinel3.conf:/usr/local/etc/sentinel.conf
+      - /Users/mymac/Desktop/MServices/RedisSentinel/sentinel3.conf:/usr/local/etc/sentinel.conf
     network_mode: "host"
 
 networks:

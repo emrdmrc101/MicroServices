@@ -1,3 +1,5 @@
+using Core.Domain.ZooKeeper;
+using Core.ServiceDiscovery;
 using Core.Tracing;
 using Lesson.Application.Interfaces.Services;
 using Lesson.Application.Queries.GetMyLessons.Responses;
@@ -11,7 +13,8 @@ public class GetMyLessonsQueryHandler(
     ILessonRepository _lessonRepository,
     IUserClaimsService _contextService,
     IMapperService _mapperService,
-    ActivityTracing _activityTracing
+    ActivityTracing _activityTracing,
+    ZookeeperHelper zookeeperHelper
 ) : IRequestHandler<GetMyLessonsQuery, GetMyLessonsQueryResponse>
 {
     public async Task<GetMyLessonsQueryResponse> Handle(GetMyLessonsQuery request, CancellationToken cancellationToken)
@@ -20,6 +23,9 @@ public class GetMyLessonsQueryHandler(
             nameof(GetMyLessonsQueryHandler),
             async () =>
             {
+                // Zookeeper test
+                string identityServiceUrl = await zookeeperHelper.GetServiceUrl(AppServices.Identity);
+                
                 GetMyLessonsQueryResponse response = new();
 
                 var lessonsDbResult = await _lessonRepository.GetMyLessons(userId: _contextService.UserContext.UserId);

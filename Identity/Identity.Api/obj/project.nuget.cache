@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "x/LpvdpMFhWg6j7iVdSw/KlzhvB9OR/fHRrtoDSAc+wqiXduJ2idNG1s0/6RFUNuklOrfFiV9zgtShyawGzOZg==",
+  "dgSpecHash": "B3FZIw3qvK4qLeC8r8u9UVNkzajunJtdqLeHgPVT4Rv44OTEsMHYawwucXYQoqIauBVMC5VmdJ98nZcw6/o0nw==",
   "success": true,
   "projectFilePath": "/Users/mymac/Desktop/MServices/Identity/Identity.Api/Identity.Api.csproj",
   "expectedPackageFiles": [
@@ -119,7 +119,8 @@
     "/Users/mymac/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/Users/mymac/.nuget/packages/system.text.json/8.0.4/system.text.json.8.0.4.nupkg.sha512",
     "/Users/mymac/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512",
-    "/Users/mymac/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "/Users/mymac/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/Users/mymac/.nuget/packages/zookeepernetex/3.4.12.4/zookeepernetex.3.4.12.4.nupkg.sha512"
   ],
   "logs": []
 }

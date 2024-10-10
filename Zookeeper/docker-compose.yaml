@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+  zookeeper:
+    image: zookeeper:3.6.2
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      ZOO_SERVERS: server.1=zookeeper:2888:3888;2181
+      ZOO_MY_ID: 1
+    networks:
+      - edem-net
+
+  zkui:
+    image: qnib/plain-zkui:latest
+    container_name: zkui
+    ports:
+      - "9090:9090"
+    environment:
+      ZK_SERVER: "zookeeper:2181"
+      ZKUI_USER: admin
+      ZKUI_PASS: password
+    depends_on:
+       - zookeeper
+    networks:
+      - edem-net
+
+networks:
+  edem-net:
+    driver: bridge

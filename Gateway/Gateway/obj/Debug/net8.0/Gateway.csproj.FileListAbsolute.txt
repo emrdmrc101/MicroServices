@@ -175,4 +175,5 @@
 /Users/mymac/Desktop/MServices/Gateway/Gateway/bin/Debug/net8.0/Npgsql.OpenTelemetry.dll
 /Users/mymac/Desktop/MServices/Gateway/Gateway/bin/Debug/net8.0/Nest.dll
 /Users/mymac/Desktop/MServices/Gateway/Gateway/bin/Debug/net8.0/OpenTelemetry.Instrumentation.EntityFrameworkCore.dll
+/Users/mymac/Desktop/MServices/Gateway/Gateway/bin/Debug/net8.0/ZooKeeperNetEx.dll
 /Users/mymac/Desktop/MServices/Gateway/Gateway/obj/Debug/net8.0/Gateway.csproj.CopyComplete

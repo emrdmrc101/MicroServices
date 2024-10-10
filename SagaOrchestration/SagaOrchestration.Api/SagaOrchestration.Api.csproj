@@ -12,6 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Core\Core\Core.csproj" />
       <ProjectReference Include="..\SagaOrchestration.Application\SagaOrchestration.Application.csproj" />
     </ItemGroup>
 

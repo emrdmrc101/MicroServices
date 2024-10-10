@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "..\Shared\Shared\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaOrchestration.Infrastructure", "SagaOrchestration.Infrastructure\SagaOrchestration.Infrastructure.csproj", "{565BC8FA-97AE-4820-A99F-169BC2813D88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\Core\Core\Core.csproj", "{BCAFDF63-F541-47DA-AFE2-F63A2C0954AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{565BC8FA-97AE-4820-A99F-169BC2813D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{565BC8FA-97AE-4820-A99F-169BC2813D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{565BC8FA-97AE-4820-A99F-169BC2813D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAFDF63-F541-47DA-AFE2-F63A2C0954AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAFDF63-F541-47DA-AFE2-F63A2C0954AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAFDF63-F541-47DA-AFE2-F63A2C0954AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAFDF63-F541-47DA-AFE2-F63A2C0954AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

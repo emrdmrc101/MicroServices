@@ -1335,6 +1335,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "ZooKeeperNetEx/3.4.12.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ZooKeeperNetEx.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/ZooKeeperNetEx.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3416,6 +3429,22 @@
         "version.txt"
       ]
     },
+    "ZooKeeperNetEx/3.4.12.4": {
+      "sha512": "YECtByVSH7TRjQKplwOWiKyanCqYE5eEkGk5YtHJgsnbZ6+p1o0Gvs5RIsZLotiAVa6Niez1BJyKY/RDY/L6zg==",
+      "type": "package",
+      "path": "zookeepernetex/3.4.12.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ZooKeeperNetEx.png",
+        "lib/net461/ZooKeeperNetEx.dll",
+        "lib/net461/ZooKeeperNetEx.xml",
+        "lib/netstandard2.0/ZooKeeperNetEx.dll",
+        "lib/netstandard2.0/ZooKeeperNetEx.xml",
+        "zookeepernetex.3.4.12.4.nupkg.sha512",
+        "zookeepernetex.nuspec"
+      ]
+    },
     "Core.Domain/1.0.0": {
       "type": "project",
       "path": "../Core.Domain/Core.Domain.csproj",
@@ -3459,7 +3488,8 @@
       "Serilog.Sinks.Elasticsearch >= 10.0.0",
       "Shared >= 1.0.0",
       "StackExchange.Redis >= 2.8.0",
-      "System.IdentityModel.Tokens.Jwt >= 7.6.2"
+      "System.IdentityModel.Tokens.Jwt >= 7.6.2",
+      "ZooKeeperNetEx >= 3.4.12.4"
     ]
   },
   "packageFolders": {
@@ -3621,6 +3651,10 @@
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[7.6.2, )"
+          },
+          "ZooKeeperNetEx": {
+            "target": "Package",
+            "version": "[3.4.12.4, )"
           }
         },
         "imports": [
@@ -3639,7 +3673,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/mymac/.vscode-dotnet-sdk/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

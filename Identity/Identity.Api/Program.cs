@@ -3,6 +3,7 @@ using Autofac.Extensions.DependencyInjection;
 using Core.Middlewares;
 using Core.Modules;
 using Core.ServiceBus;
+using Core.ServiceDiscovery;
 using Core.Tracing;
 using Identity.Api.Modules;
 using Identity.Application.Modules;
@@ -42,7 +43,7 @@ builder.Services.AddDbContext<IdentityDbContext>(o =>
 });
 
 var app = builder.Build();
-
+app.RunZookeeper();
 app.AddExceptionHandlingMiddleware();
 app.AddTraceMiddleware();
 
